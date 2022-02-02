@@ -7,8 +7,8 @@ public class Coin {
     public String flipCoin(){
 
         Random random = new Random();
-        String lado = lados[random.ints(0, 2).findFirst().getAsInt()];
-        return lado;
+       return lado = lados[random.ints(0, 2).findFirst().getAsInt()];
+
     }
 
 }
